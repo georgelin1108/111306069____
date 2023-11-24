@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first CSS stylesheet</title>
+    <style>
+        body {
+            color: #333;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #66b2ff;
+            padding: 10px;
+        }
+
+        .header-title {
+            color: #fff;
+        }
+
+        .navbar {
+           position: relative;
+            top: 1em;
+            left: 1em;
+            width: 100em;
+            background-color: #b3ffb3;
+            padding: 10px;
+        }
+
+        .navbar-item {
+            color: #006400;
+        }
+
+        .dropdown {
+            background-color: #ffc0cb;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        @media (max-width: 700px) {
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body class="body-style">
+
+    <div class="header">
+        <h1 class="header-title">My first style page</h1>
+        <p>The paragraph about me.
+            <br>
+            <img src="lun.jpg" alt="C:\Users\user\OneDrive\桌面" style="max-width: 50%;">
+        </p>
+        <p>The paragraph shows what I like.
+            <br>
+             <img src="food.jpg" alt="C:\Users\user\OneDrive\桌面" style="max-width: 50%;">
+        </p>
+        <p>The paragraph about my habit.
+            <br>
+             <img src="dance.jpg" alt="C:\Users\user\OneDrive\桌面" style="max-width: 100S%;">
+        </p>
+    </div>
+
+    <ul class="navbar">
+         <li class="navbar-item">Something about me
+        <a href="https://www.youtube.com/watch?v=vKGETIh92kQ">
+        </li>
+        <li class="navbar-item">My favorite song
+        <a href="https://www.nccu.edu.tw/app/home.php">
+        </li>
+        <li class="navbar-item">My college
+        <a href="https://shadow.softstargames.com.tw">
+        </li>
+        <li class="navbar-item">My favorite game
+        </li>
+    </ul>
+
+</body>
+</html>
